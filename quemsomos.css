@@ -1,0 +1,133 @@
+*{margin: 0%; box-sizing: border-box;}
+/*----------CABECA----------*/
+header
+{
+    background-color: rgba(59, 45, 45, 1) ;
+}
+.cabecalho
+{
+    width: 50%;
+    height: 220px;
+}
+.fonte
+{
+    font-family: "Afacad";
+    color: rgb(255, 255, 255);
+    font-size:xx-large;
+    padding: 60px;
+}
+.fonte2
+{
+    font-family: "Afacad";
+    color: black;
+}
+/*------------------- CORPO --------------------*/
+.body
+{
+    padding: 70px 10vh;
+    margin-bottom: 380px;
+}
+.fuji
+{
+    background-image: url(/imagens/fuji.png);
+    background-size: cover;
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    right: 77%;
+    bottom: 42%;
+}
+.textos
+{
+    position: absolute;
+    left: 25%;
+    bottom: 50.5%;
+}
+.q1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(174, 165, 141, 1);
+    width: 325px;
+    height: 261px;
+    position: absolute;
+    left: 69%;
+    bottom: 55%;
+    font-size: 19px  ;
+}
+.vannta
+{
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    left: 1%;
+}
+.vannta a
+{
+    text-decoration: none;
+    color: black;
+}
+/* ------------------ RODAPÉ ------------------ */
+footer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.footer-logo 
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-right: 50px;
+}
+.footer-links 
+{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.footer-column h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.footer-legal 
+{
+    display: flex;
+    gap: 20px;
+    align-self: flex-end;
+}
+footer
+{
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0%;
+}
+ul
+{
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
