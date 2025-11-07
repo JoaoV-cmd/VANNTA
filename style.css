@@ -39,21 +39,21 @@ a
 /*----------CORPO----------*/
 #img1
 {
-    background-image: url('/imagens/99fdc7ec45e249c9232343c80bc1eff0.jpg');
+    background-image: url('99fdc7ec45e249c9232343c80bc1eff0.jpg');
     background-size: cover;
     height: 50vh;
     width: 20%;
 }
 #img2
 {
-    background-image: url('/imagens/download.jpg');
+    background-image: url('download.jpg');
     height: 60vh;
     background-size: cover;
     width: 20%;
 }
 #img3
 {
-    background-image: url('/imagens/image\ 6.png');
+    background-image: url('image 6.png');
     height: 70vh;
     background-size: cover;
     width: 20%;
@@ -137,4 +137,5 @@ ul
     list-style-type: none;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
+
 }
