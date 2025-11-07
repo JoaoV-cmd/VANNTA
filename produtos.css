@@ -48,7 +48,7 @@ a
 }
 #moletom1
 {
-    background-image: url('/imagens/moletom1.png');
+    background-image: url('moletom1.png');
     background-size: cover;
     height: 50vh;
     width: 20%;
@@ -60,7 +60,7 @@ a
 }
 #moletom2
 {
-    background-image: url('/imagens/moletom2.png');
+    background-image: url('moletom2.png');
     background-size: cover;
     height: 50vh;
     width: 20%;
@@ -72,7 +72,7 @@ a
 }
 #bermuda
 {
-    background-image: url('/imagens/bermuda.png');
+    background-image: url('bermuda.png');
     background-size: cover;
     width: 20%;
     height: 50vh;
@@ -155,4 +155,5 @@ ul
     list-style-type: none;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
+
 }
