@@ -39,7 +39,7 @@ a
 /*----------CORPO----------*/
 #img1
 {
-    background-image: url('99fdc7ec45e249c9232343c80bc1eff0.jpg');
+    background-image: url('99fdc7ec45e249c9232343c80bc1eff0 (1).jpg');
     background-size: cover;
     height: 50vh;
     width: 20%;
@@ -53,7 +53,7 @@ a
 }
 #img3
 {
-    background-image: url('image 6.png');
+    background-image: url('image 6 (1).png');
     height: 70vh;
     background-size: cover;
     width: 20%;
@@ -139,3 +139,4 @@ ul
     grid-template-rows: 1fr 1fr 1fr 1fr ;
 
 }
+
