@@ -29,7 +29,7 @@ header
 }
 .fuji
 {
-    background-image: url(/imagens/fuji.png);
+    background-image: url(fuji.png);
     background-size: cover;
     width: 30vh;
     height: 30vh;
@@ -130,4 +130,5 @@ ul
     list-style-type: none;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
+
 }
